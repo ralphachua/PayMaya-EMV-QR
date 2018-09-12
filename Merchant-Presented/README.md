@@ -474,7 +474,7 @@ An example is given below:
         *   Service Code (ID `"02"`) = `MECOA`
         *   ATM / Phone Reference No (ID `"03"`) = `0466499801810136`
         *   Meralco Reference No (ID `"04"`) = `04664998018121013612102603`
-    *   CRC (ID `"63"`) = `8FB9`
+    *   CRC (ID `"63"`) = `1DB5`
 
 ## PLDT Home
 
