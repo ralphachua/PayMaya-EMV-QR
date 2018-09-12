@@ -2,7 +2,7 @@
 
 * Author: Edge Dalmacio <edge.dalmacio@paymaya.com>
 * Created: 2018-02-15
-* Last modified: 2018-03-22
+* Last modified: 2018-09-12
 * Status: Version 1.0
 
 # Introduction
@@ -418,10 +418,10 @@ An example is given below:
 ### EMV Merchant QR Code Data
 
 ```
-00020101021226150011com.paymaya5204490053036085405390.85802PH5907Meralco6005Pasig6252010904664998050350020com.paymaya.billspay0107meralco80870015com.bayadcenter0105000010205MECOA0316046649980181013604260466499801812101361210260363048FB9
+00020101021226150011com.paymaya5204490053036085405390.85802PH5907Meralco6005Pasig62530110046649980150350020com.paymaya.billspay0107meralco80870015com.bayadcenter0105000010205MECOA0316046649980181013604260466499801812101361210260363041DB5
 ```
 
-![Image of Meralco QR](https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=00020101021226150011com.paymaya5204490053036085405390.85802PH5907Meralco6005Pasig6252010904664998050350020com.paymaya.billspay0107meralco80870015com.bayadcenter0105000010205MECOA0316046649980181013604260466499801812101361210260363048FB9)
+![Image of Meralco QR](https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=00020101021226150011com.paymaya5204490053036085405390.85802PH5907Meralco6005Pasig62530110046649980150350020com.paymaya.billspay0107meralco80870015com.bayadcenter0105000010205MECOA0316046649980181013604260466499801812101361210260363041DB5)
 
 ### Binary Data (shown as hex bytes)
 
@@ -436,8 +436,8 @@ An example is given below:
 58 02 50 48
 59 07 4D 65 72 61 6C 63 6F
 60 05 50 61 73 69 67
-62 52
-  01 09 30 34 36 36 34 39 39 38 30
+62 53
+  01 10 30 34 36 36 34 39 39 38 30 31
   50 35
     00 20 63 6F 6D 2E 70 61 79 6D 61 79 61 2E 62 69 6C 6C 73 70 61 79
     01 07 6D 65 72 61 6C 63 6F
@@ -447,7 +447,7 @@ An example is given below:
   02 05 4D 45 43 4F 41
   03 16 30 34 36 36 34 39 39 38 30 31 38 31 30 31 33 36
   04 26 30 34 36 36 34 39 39 38 30 31 38 31 32 31 30 31 33 36 31 32 31 30 32 36 30 33 
-63 04 38 46 42 39
+63 04 31 44 42 35
 ```
 
 ### EMV Interpreted Data
@@ -464,7 +464,7 @@ An example is given below:
     *   Merchant Name (ID `"59"`) = `Meralco`
     *   Merchant City (ID `"60"`) = `Pasig`
     *   Additional Data Field Template (ID `"62"`)
-        *   Bill Number (ID `"01"`) = `046649980`
+        *   Bill Number (ID `"01"`) = `0466499801`
         *   Bill Details Template (ID `"50"`)
             *   Global Unique Identifier (ID `"00"`) = `com.paymaya.billspay`
             *   Biller Slug (ID `"01"`) = `meralco`
